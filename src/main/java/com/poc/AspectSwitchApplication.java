@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AspectSwitchApplication {
 
 	public static void main(String[] args) {
+
+		System.setProperty("a2c.feature", "false");
 		SpringApplication.run(AspectSwitchApplication.class, args);
 	}
 }
